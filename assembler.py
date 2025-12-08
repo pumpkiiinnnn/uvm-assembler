@@ -70,7 +70,7 @@ def main():
 
     with open(output_file, "wb") as f:
         f.write(binary)
-
+    print("assembled commands: ", len(program))
     print("Done.")
 
 
