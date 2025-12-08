@@ -1,0 +1,8 @@
+[
+  {"op": "load_const", "B": 0, "C": 50},
+  {"op": "load_const", "B": 1, "C": 100},
+  {"op": "load_const", "B": 2, "C": 42},
+  {"op": "store_mem", "B": 2, "C": 0, "D": 0},
+  {"op": "load_mem",  "B": 3, "C": 0, "D": 0},
+  {"op": "store_mem", "B": 3, "C": 1, "D": 0}
+]
