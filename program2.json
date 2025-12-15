@@ -1,0 +1,31 @@
+[
+  { "op": "load_const", "B": 0, "C": 0 },
+
+  { "op": "load_const", "B": 1, "C": 13 },
+  { "op": "store_mem", "B": 1, "C": 0, "D": 0 },
+
+  { "op": "load_const", "B": 1, "C": 7 },
+  { "op": "store_mem", "B": 1, "C": 0, "D": 1 },
+
+  { "op": "load_const", "B": 1, "C": 128 },
+  { "op": "store_mem", "B": 1, "C": 0, "D": 2 },
+
+  { "op": "load_const", "B": 1, "C": 255 },
+  { "op": "store_mem", "B": 1, "C": 0, "D": 3 },
+
+  { "op": "load_mem", "B": 2, "C": 0, "D": 0 },
+  { "op": "bitreverse", "B": 3, "C": 2 },
+  { "op": "store_mem", "B": 3, "C": 0, "D": 8 },
+
+  { "op": "load_mem", "B": 2, "C": 0, "D": 1 },
+  { "op": "bitreverse", "B": 3, "C": 2 },
+  { "op": "store_mem", "B": 3, "C": 0, "D": 9 },
+
+  { "op": "load_mem", "B": 2, "C": 0, "D": 2 },
+  { "op": "bitreverse", "B": 3, "C": 2 },
+  { "op": "store_mem", "B": 3, "C": 0, "D": 10 },
+
+  { "op": "load_mem", "B": 2, "C": 0, "D": 3 },
+  { "op": "bitreverse", "B": 3, "C": 2 },
+  { "op": "store_mem", "B": 3, "C": 0, "D": 11 }
+]
